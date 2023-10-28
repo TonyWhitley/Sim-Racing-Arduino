@@ -28,6 +28,14 @@
 // This example requires the Arduino Joystick Library
 // Download Here: https://github.com/MHeironimus/ArduinoJoystickLibrary
 
+/*
+To change the device name I edited C:\Users\ "user" \AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\boards.txt
+leonardo.name=Logitech G25 Pedals
+leonardo.build.usb_product="Logitech G25 Pedals"
+and incremented
+leonardo.build.pid=0x8037
+*/
+
 #include <SimRacing.h>
 #include <Joystick.h>
 
